@@ -1,0 +1,157 @@
+@charset "UTF-8";
+html {
+	overflow-y: scroll;
+}
+/* リセットCSSの記述です。コピペしていただいて構いません。----- */
+
+body, h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	min-width: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+li {
+	list-style: none;
+}
+a {
+	outline: none;
+	color: inherit;
+	text-decoration: none;
+}
+img {
+	border: 0px;
+	vertical-align: bottom;
+}
+/* --------------------------------------------------- */
+
+/* フォントの指定です。コピペしていただいて構いません。 */
+body {
+	font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", "Meiryo", "HGPｺﾞｼｯｸM", "Osaka", "ＭＳ Ｐゴシック", sans-serif, Century Gothic, Arial;
+}
+/*
+header {
+	高さ 60px
+	幅 100%
+	背景色 #eeeaec
+	文字を中央寄せ
+	位置 固定
+}
+
+header ul {
+	幅 800px
+	マージン使って中央寄せ
+	ディスプレイ flex
+}
+
+header li {
+	文字色 #acacac
+	幅 25%
+	行の高さ 60px
+	transition:0.2s; 使い方が分からないCSSプロパティはその都度検索していきましょう!!
+}
+
+header li:hover{ CSSの擬似クラスについても検索してみると良いかもしれません。
+	色:#111
+}
+
+section {
+	文字を中央寄せ
+	パディング 上下 100px 左右 0
+}
+section h1 {
+	文字サイズ 40px
+	行の高さ 50px
+	マージン 下 80px
+	文字の太さ 200
+
+}
+.box {
+	最大幅 1200px
+	マージンを使って中央寄せ
+}
+
+#sec1 {
+	背景画像 photo_01.png
+	背景リピート リピートなし
+	背景位置 上下 センター 左右 センター
+	高さ 400px
+	背景のサイズ cover
+}
+#sec1 h1 {
+	文字サイズ 55px
+	文字色 #fff
+	パディング 上200px
+}
+#sec1 h1 br {
+	display: none;
+}
+
+#sec2 .flex_area {
+	ディスプレイ flex
+}
+
+#sec2 .flex_area div h2 {
+	文字サイズ 20px
+	マージン下 20px
+}
+#sec2 .flex_area div p {
+	文字の大きさ 14px
+	行の高さ 1.8
+	マージン 下 14px
+}
+#sec3 {
+	背景画像 photo_02.png
+	背景リピート リピートなし
+	背景位置 上下 センター 左右 センター
+	背景のサイズ cover
+	文字色 #fff
+	背景のアタッチメント fixed
+}
+#sec3 p {
+	文字サイズ 16px
+	行の高さ 2
+	マージン 16px
+}
+#sec4 p {
+	文字の大きさ 15px
+	行の高さ 2
+	マージン 下 15px
+}
+
+#sec4 .port .portfolio {
+	幅 90%
+	マージン上下 40px 左右 auto
+	文字を左寄せ
+	ディスプレイ flex
+}
+
+#sec4 .port .portfolio img {
+	幅 100%
+}
+
+#sec4 .port .portfolio p {
+	文字サイズ 14px
+	マージン 上下 5px
+}
+
+#sec4 .port .portfolio p.port_title{
+	文字を中央寄せ
+	文字サイズ 18px
+}
+
+footer {
+	高さ 80px
+	背景色 #eeeaec
+}
+footer .copyright {
+	文字色 #acacac
+	文字サイズ 12px
+	パディング 上 30px
+	文字の間隔 1px
+}

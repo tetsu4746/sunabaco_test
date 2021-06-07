@@ -1,0 +1,17 @@
+.inline_test {
+    width: 300px;
+    height: 300px;
+    border: 16px solid purple;
+    background-color: yellow;
+}
+
+
+span {
+    background-color: blue;
+}
+
+p {
+    background-color: brown;
+    width: 200px;
+    margin: auto;
+}

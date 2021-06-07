@@ -1,0 +1,164 @@
+@charset "UTF-8";
+html {
+	overflow-y: scroll;
+}
+body, h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	min-width: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+li {
+	list-style: none;
+}
+a {
+	outline: none;
+	color: inherit;
+	text-decoration: none;
+}
+img {
+	border: 0px;
+	vertical-align: bottom;
+}
+/* フォントの指定はコピペしていただいて構いません。 */
+body {
+	font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", "Meiryo", "HGPｺﾞｼｯｸM", "Osaka", "ＭＳ Ｐゴシック", sans-serif, Century Gothic, Arial;
+}
+
+
+/*
+header {
+	位置 固定
+	幅 100%
+}
+header .hum_menu {
+	位置 絶対座標による指定
+	右からの距離 0px
+	上からの距離 0px
+}
+header .hum_menu a {
+	ディスプレイ ブロック要素
+	高さ 20px
+	横 40px
+	パディング 上下 10px 左右 0
+	背景色 #eeeaec
+	文字を中央寄せ
+}
+header .hum_menu span {
+	ディスプレイ ブロック要素
+	高さ 2px
+	幅 20px
+	背景色 #aaa
+	マージン 上下 3px 左右 auto
+}
+header ul {
+	要素をなかったことにする (隠すのではないよ)
+	マージン 右 40px
+}
+header ul li {
+	幅 50%
+	文字色 #acacac
+	行の高さ 40px
+	文字を左寄せ
+	文字の大きさ 12px
+	文字のインデント 8px
+}
+header ul li a {
+	ディスプレイ ブロック要素
+	ボーダー 1px solid #555
+	ボーダーの幅  上 1px 右 1px 下 0 左 0
+}
+header.open {
+	背景色 #eeeaec
+}
+header.open ul {
+	ディスプレイ flex
+	flex-wrap: wrap; ****flexの使い方について検索してみましょう!!****
+}
+footer {
+	高さ 80px
+	背景色 #eeeaec
+}
+footer .copyright {
+	文字色 #acacac
+	文字の大きさ 12px
+	パディング 上 30px
+	文字幅 1px
+}
+section {
+	パディング 上下50px 左右15px
+	文字を左寄せ
+}
+section h1 {
+	文字サイズ 20px
+	行の高さ 35px
+	マージン 下 40px
+	文字の太さ 200
+}
+#sec1 {
+	背景 photo_01.png
+	背景リピート リピート無し
+	背景位置 上下センター 左右センター
+	背景のサイズ cover
+}
+#sec1 h1 {
+	文字の大きさ 30px
+	文字色 #fff
+}
+#sec2 .flex_area div {
+	文字を左寄せ
+}
+#sec2 .flex_area div h2 {
+	文字サイズ 14px
+	マージン 上30px 下10px 左右0
+}
+#sec2 .flex_area div p {
+	文字サイズ 12px
+	行の高さ 1.8
+	マージン 下 14px
+}
+#sec3 {
+	背景 photo_02.png
+	背景リピート リピート無し
+	背景位置 上下センター 左右センター
+	背景のサイズ cover
+	文字色 #fff
+}
+#sec3 p {
+	文字の大きさ 13px
+	行の高さ 2
+	マージン 下 16px
+}
+#sec3 p br {
+	要素をなかったことにする (隠すのではないよ)
+}
+
+#sec4 .port .flex_reverse{
+	ディスプレイ flex
+	flex-direction: column-reverse; ****flexの使い方について検索してみましょう!!****
+}
+
+#sec4 p {
+	文字サイズ 12px
+	行の高さ 1.8
+	マージン 下 55px
+}
+#sec4 p br {
+	要素をなかったことにする (隠すのではないよ)
+}
+
+#sec4 .port .portfolio img {
+	幅 100%
+}
+
+#sec4 .port .port_title{
+	文字サイズ 14px
+	マージン 上下 10px
+}
+*/
