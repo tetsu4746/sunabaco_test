@@ -41,7 +41,9 @@ def weather():
 def dbtest():
     conn = sqlite3.connect('flasktest.db')
     c = conn.cursor()
+    # データベースの中のどのテーブルのどの項目の何番目のIDなのか
     c.execute("SELECT name, age, address FROM staff WHERE id = 2")
+#    fetchone １件ずつデータをもってくる
     userInfo = c.fetchone()
     c.close()
     print(userInfo)
@@ -67,6 +69,11 @@ def addPost():
     conn.commit()
     c.close()
     return redirect('/')
+
+
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('page_not_found.html'), 404
 
 
 if __name__ == "__main__":
